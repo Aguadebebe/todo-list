@@ -21,10 +21,21 @@ const TodoForm = ({ handleAddTask }) => {
         }
     }
 
+    const addTask = "<button>Add Task</button>";
+    const inputEl1 = "<input value={inputValue} onChange={handleChange}>"
+    const inputEl2 = " /> ";
+    const form1 = "<form onSubmit={handleSubmit}>";
+    const return1 = "return (";
+    const formComponent1 = "const TodoForm = ({ handleAddTask }) => {";
+    
     return(
+        <div> 
+        <div>{formComponent1}</div>
+        <div>{return1}</div> 
         <form onSubmit={handleSubmit}>
             <label> 
-              New Task
+             {form1}
+             <div>{inputEl1}</div>
              <input 
               value={inputValue}
               type="text"
@@ -32,9 +43,11 @@ const TodoForm = ({ handleAddTask }) => {
               onChange={handleChange}
              />
             </label>
+            <div>{inputEl2}</div>
              {error && <p className="form-error">Please enter a Task!</p>}
-            <button type="submit">Add Task</button>
+            <button type="submit">{addTask}</button>
         </form>
+        </div>
     );
 }
 
