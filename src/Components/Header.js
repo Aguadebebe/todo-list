@@ -1,7 +1,6 @@
-import Head1 from "./Head1";
-import { colors6 } from "./Head1";
-import Head2 from "./Head2";
-import { colors7 } from "./Head2";
+import MapColorChars from "./MapColorChars";
+import { colors6 } from "./ColorArrays";
+import { colors7 } from  "./ColorArrays";
 
 const Header = () => {
     const header1 = "<header>";
@@ -9,9 +8,9 @@ const Header = () => {
     
     return (
         <header>
-          <Head1 text={header1} colors6={colors6} />
+          <MapColorChars text={header1} colors={colors6} />
           <label className="header-label">Todo List App</label>
-          <Head2 text={header2} colors7={colors7} />
+          <MapColorChars text={header2} colors={colors7} />
            
         </header> 
     );

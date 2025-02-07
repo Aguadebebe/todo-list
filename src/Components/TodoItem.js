@@ -6,6 +6,7 @@ const TodoItem = ({ task, handleDeleteTask, handleToggleComplete }) => {
     const id = "id: ";
     const title = "title: ";
     const curly2 = "},"
+    
     return (
         <li>
           <button 
@@ -19,7 +20,7 @@ const TodoItem = ({ task, handleDeleteTask, handleToggleComplete }) => {
              {curly1}
             </div> 
             <div>{id}</div>
-            <div>{task.id}, </div>
+            <div>{task.id},</div>
             <div>{title}</div>
             <div>{task.title}</div>
             <div className={task.completed ? "completed" : "uncompleted"}>

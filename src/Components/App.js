@@ -1,5 +1,5 @@
 import '../App.css';
-import Header from "./Feature-headercomps/Header";
+import Header from "./Header";
 import AppLogic from "./AppLogic";
 function App() {
   return (

@@ -1,6 +1,6 @@
 import { useState } from "react";
-import TodoForm from "./Feature-formcomps/TodoForm";
-import TodoList from "./Feature-listcomps/TodoList";
+import TodoForm from "./TodoForm";
+import TodoList from "./TodoList";
 const AppLogic = () => {
     const [tasks, setTasks] = useState([]);
 
@@ -27,12 +27,12 @@ const AppLogic = () => {
     return (
         <div> 
           <TodoForm 
-          handleAddTask={handleAddTask}
+           handleAddTask={handleAddTask}
           />
           <TodoList 
-          tasks={tasks}
-          handleToggleComplete={handleToggleComplete}
-          handleDeleteTask={handleDeleteTask}
+           tasks={tasks}
+           handleToggleComplete={handleToggleComplete}
+           handleDeleteTask={handleDeleteTask}
           />
         </div>
     );
