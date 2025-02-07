@@ -1,4 +1,4 @@
-
+ 
 
 const TodoItem = ({ task, handleDeleteTask, handleToggleComplete }) => {
 
@@ -8,7 +8,12 @@ const TodoItem = ({ task, handleDeleteTask, handleToggleComplete }) => {
     const curly2 = "},"
     return (
         <li>
-          <button onClick={() => handleDeleteTask(task.id)}>Delete</button>
+          <button 
+          onClick={() => handleDeleteTask(task.id)}
+          className="delete"
+          >
+          Delete
+          </button>
           <span onClick={() => handleToggleComplete(task.id)}> 
             <div>
              {curly1}
