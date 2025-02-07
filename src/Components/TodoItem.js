@@ -22,7 +22,7 @@ const TodoItem = ({ task, handleDeleteTask, handleToggleComplete }) => {
             <div>{id}</div>
             <div>{task.id},</div>
             <div>{title}</div>
-            <div>{task.title}</div>
+            <div style={{ color: "rgb(213, 177, 124)"}}>{task.title}</div>
             <div className={task.completed ? "completed" : "uncompleted"}>
              {task.completed ? "Completed !" : "X"}
             </div>
