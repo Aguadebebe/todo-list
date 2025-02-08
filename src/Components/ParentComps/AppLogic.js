@@ -1,6 +1,6 @@
 import { useState } from "react";
-import TodoForm from "./TodoForm";
-import TodoList from "./TodoList";
+import TodoForm from "../ChildComps/TodoForm";
+import TodoList from "../ChildComps/TodoList";
 const AppLogic = () => {
     const [tasks, setTasks] = useState([]);
 

@@ -1,10 +1,10 @@
 import TodoItem from "./TodoItem";
-import MapColorChars from "./MapColorChars";
-import { colors2 } from  "./ColorArrays";
-import { colors5 } from "./ColorArrays";
-import { colors9 } from  "./ColorArrays";
-import { colors11 } from  "./ColorArrays";
-import { colors12 } from  "./ColorArrays";
+import MapColorChars from "../MapColorChars";
+import { colors2 } from  "../ColorArrays";
+import { colors5 } from "../ColorArrays";
+import { colors9 } from  "../ColorArrays";
+import { colors11 } from  "../ColorArrays";
+import { colors12 } from  "../ColorArrays";
  
 const TodoList = ({ tasks, handleDeleteTask, handleToggleComplete }) => {
 

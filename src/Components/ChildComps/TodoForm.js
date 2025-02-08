@@ -1,9 +1,9 @@
 import { useState } from "react";
-import  MapColorChars from "./MapColorChars";
-import { colors } from  "./ColorArrays";
-import { colors3 } from "./ColorArrays";
-import { colors8 } from  "./ColorArrays";
-import { colors10 } from  "./ColorArrays";
+import  MapColorChars from "../MapColorChars";
+import { colors } from  "../ColorArrays";
+import { colors3 } from "../ColorArrays";
+import { colors8 } from  "../ColorArrays";
+import { colors10 } from  "../ColorArrays";
 
 const TodoForm = ({ handleAddTask }) => {
     const [inputValue, setInputValue] = useState("");
