@@ -1,27 +1,25 @@
- body {
+body {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: black;
- 
- }
-  
- 
- .app {
+}
+
+.app {
   color: white;
   margin-top: 1em;
   font-size: 2em;
   font-style: bold;
- }
- 
- .header-label {
-    font-size: 1.6em;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bold;
-    color: gray;
- }
+}
 
- .app-logic {
+.header-label {
+  font-size: 1.6em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  color: gray;
+}
+
+.app-logic {
   margin-top: 1em;
 }
 
@@ -36,18 +34,18 @@
 }
 
 .input {
-  font-size: .6em;
+  font-size: 0.6em;
 }
 
 .add-task {
   background: linear-gradient(135deg, orange 60%, cyan);
-  color:rgb(62, 46, 46);
-  font-size: .6em;
-  border-radius: .5em;
+  color: rgb(62, 46, 46);
+  font-size: 0.6em;
+  border-radius: 0.5em;
 }
 
 .delete {
-  background-color:rgb(210, 179, 240);
+  background-color: rgb(210, 179, 240);
 }
 
 .form-error {
@@ -68,9 +66,7 @@
   font-weight: bold;
 }
 
-
 .uncompleted {
   color: rgb(251, 61, 61);
   font-weight: bold;
 }
- 
